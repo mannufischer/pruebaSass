@@ -1,4 +1,10 @@
 
+  @import "variables";
+  @import "header";
+  @import "imgCarrusel";
+  @import "contenedoresIndex";
+  @import "footer";
+ 
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +15,9 @@
   }
   
   body {
-    font-size: $fuenteBody;
+    font-size:$fuenteBody;
   }
-  
-  @import "variables";
-  @import "header";
-  @import "imaCarrusel";
-  @import "contenedoresIndex";
-  @import "footer";
+
  
   
   

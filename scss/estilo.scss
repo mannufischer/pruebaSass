@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: $fuenteBody;
+  }
+  
+  @import "variables";
+  @import "header";
+  @import "imaCarrusel";
+  @import "contenedoresIndex";
+  @import "footer";
+ 
+  
+  

@@ -1,0 +1,20 @@
+.contenedor {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 2px #8B9D83;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .politica, .politica1 {
+    display: flex;
+  }
+  
+  .nosotros {
+    display: flex;
+    justify-content: center;
+  }

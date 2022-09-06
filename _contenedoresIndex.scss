@@ -18,3 +18,10 @@
     display: flex;
     justify-content: center;
   }
+
+  
+  @media (max-width:699px) {
+    .politica, .politica1 {
+        display: inline-block;
+    }
+}  

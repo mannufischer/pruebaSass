@@ -18,6 +18,27 @@
     font-size:$fuenteBody;
   }
 
- 
   
-  
+  $estilo: (color:uppercase, tamFuente:1.4rem);
+
+  .mayuscula {
+    text-transform: map-get($estilo, color);
+    font-size: map-get($estilo, tamFuente);
+  }
+
+h2 {
+  font-weight: bold;
+  @extend .mayuscula;
+}
+
+@mixin primerParrafo {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.mixin {
+  @include primerParrafo;
+}
+
+

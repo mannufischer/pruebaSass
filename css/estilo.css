@@ -39,6 +39,10 @@
   display: flex;
   justify-content: center; }
 
+@media (max-width: 699px) {
+  .politica, .politica1 {
+    display: inline-block; } }
+
 .footer {
   font-size: 2rem;
   background: #1f4037;
@@ -57,3 +61,15 @@ html {
 
 body {
   font-size: 3rem; }
+
+.mayuscula, h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem; }
+
+h2 {
+  font-weight: bold; }
+
+.mixin {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem; }
